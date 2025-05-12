@@ -605,7 +605,7 @@ footer p{
 }
 
 /***-----------------------------------media query for phone---------------------**/
-@media screen and (max-width:440px) {
+@media (min-width:300px) and (max-width:440px) {
     /**Hero Section -----------------------------------------------------**/
 
 body{
@@ -1024,7 +1024,7 @@ footer p{
 
 
 /***-----------------------------------media query for tablet---------------------*/
-@media screen and (width:600px) {
+@media(min-width:441px) and (max-width:800px) {
     /**Hero Section -----------------------------------------------------**/
 
 body{
@@ -1048,7 +1048,57 @@ header nav ul li a{
     text-decoration: none;
     color: white;
 }
+header nav ul li{header .menu-icon ion-icon{
+    color: white;
+    font-size: 50px;
+}
+#closebar {
+    display: none;
+}
+
+header{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #0e0e0e, #0d0d0d, #0d0d0d, #0c0c0c, #0b0b0b, #14111e);
+
+}
+header img{
+    width: 200px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
 header nav ul li{
+    list-style: none;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around
+}
+header nav {
+    width: 60%;
+}
+.menu-icon img{
+    color: white;
+    width: 40px;
+    display: none;
+}
+.downloadresume{
+    background-image: linear-gradient(to right bottom, #6b0de7, #b600c2, #d806a2, #e7438c, #e96b82);
+    padding: 10px;
+    border-radius: 10px;
+}
+.downloadresume a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    
+}
     list-style: none;
 }
 header nav ul {
@@ -1415,9 +1465,9 @@ footer{
 footer p{
     color: white;
     font-size: 16px;
+} 
 }
 
-  
-
-
+@media (min-width:801px){
+    
 }
